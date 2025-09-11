@@ -10,9 +10,9 @@
 
 void lcd_pulse(){
     PORTB |= (1<<ENABLE);
-    _delay_ms(1);
+    _delay_ms(100);
     PORTB &= ~(1<<ENABLE);
-    _delay_ms(2);
+    _delay_ms(100);
 }
 void lcd_command(unsigned char cmd){
     //RS 0 for command
