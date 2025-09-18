@@ -56,7 +56,7 @@
                 }
 
 
-                //StackDemo
+                //Stack Demo
 
 
                 Stack<Student> students_stack = new Stack<Student>();
