@@ -24,17 +24,17 @@ function App() {
       count: count,
       setCount:setCount
     }}>
-      <CallAnApiComponent/>
-      <UseReducerComponent/>
-      {/* <div className='App'>
+      <div className='App'>
         <Counter/>
         <EventComponent/>
         <LoginComponent/>
         <UseEffectComponent/>
         <UseRefComponent/>
         <ParentComponent/>
-      </div> */}
-      {/* <UseContextComponent/> */}
+        <UseContextComponent/> 
+        <CallAnApiComponent/>
+        <UseReducerComponent/>
+      </div>
     </Context.Provider>
   );
 }
